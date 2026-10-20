@@ -1,0 +1,22 @@
+2026-10-18 19:25:52 [qtp1595282218-31] INFO  com.example.rest.OrderResource - Создание нового заказа
+2026-10-18 19:25:52 [qtp1595282218-31] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:INTEGER) <- [1]
+2026-10-18 19:25:53 [qtp1595282218-31] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:INTEGER) <- [7]
+2026-10-18 19:25:53 [qtp1595282218-31] WARN  com.example.rest.OrderResource - Недостаточно товара id = 7. Запрошено: 90, в наличии: 30
+2026-10-18 19:26:29 [qtp1595282218-29] INFO  com.example.rest.OrderResource - Создание нового заказа
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:INTEGER) <- [1]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:INTEGER) <- [7]
+2026-10-18 19:26:29 [qtp1595282218-29] INFO  com.example.rest.OrderResource - Списан товар id = 7 в количестве 5 шт. Новый остаток: 25
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:INTEGER) <- [1]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (2:TIMESTAMP) <- [2026-10-18T19:26:29.585258800]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (3:INTEGER) <- [7]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (4:INTEGER) <- [5]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (5:VARCHAR) <- [NEW]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (6:NUMERIC) <- [2750]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:VARCHAR) <- [Шампунь для ломких волос]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (2:VARCHAR) <- [Шампунь]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (3:NUMERIC) <- [550.00]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (4:INTEGER) <- [25]
+2026-10-18 19:26:29 [qtp1595282218-29] TRACE org.hibernate.orm.jdbc.bind - binding parameter (5:INTEGER) <- [7]
+2026-10-18 19:26:29 [qtp1595282218-29] INFO  com.example.rest.OrderResource - Новый заказ успешно создан с id = 5
+2026-10-18 19:26:47 [qtp1595282218-30] INFO  com.example.rest.ProductResource - Метод GET: запрос на получение всех товаров
+2026-10-18 19:26:47 [qtp1595282218-30] INFO  com.example.rest.ProductResource - Товары успешно получены, количество: 6

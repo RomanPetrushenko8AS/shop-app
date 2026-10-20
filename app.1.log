@@ -1,0 +1,13 @@
+2026-10-18 19:27:41 [qtp1595282218-31] INFO  com.example.rest.OrderResource - Метод GET: получение всех заказов
+2026-10-18 19:27:41 [qtp1595282218-31] INFO  com.example.rest.OrderResource - Все заказы получены. Количество заказов: 5
+2026-10-18 19:28:19 [qtp1595282218-30] INFO  com.example.rest.OrderResource - Метод DELETE: удаление заказа с id = 5
+2026-10-18 19:28:19 [qtp1595282218-30] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:INTEGER) <- [5]
+2026-10-18 19:28:19 [qtp1595282218-30] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:INTEGER) <- [7]
+2026-10-18 19:28:19 [qtp1595282218-30] INFO  com.example.rest.OrderResource - Заказ отменен. Товар id = 7 возвращен на склад в количестве 5 шт. Новый остаток: 30
+2026-10-18 19:28:19 [qtp1595282218-30] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:VARCHAR) <- [Шампунь для ломких волос]
+2026-10-18 19:28:19 [qtp1595282218-30] TRACE org.hibernate.orm.jdbc.bind - binding parameter (2:VARCHAR) <- [Шампунь]
+2026-10-18 19:28:19 [qtp1595282218-30] TRACE org.hibernate.orm.jdbc.bind - binding parameter (3:NUMERIC) <- [550.00]
+2026-10-18 19:28:19 [qtp1595282218-30] TRACE org.hibernate.orm.jdbc.bind - binding parameter (4:INTEGER) <- [30]
+2026-10-18 19:28:19 [qtp1595282218-30] TRACE org.hibernate.orm.jdbc.bind - binding parameter (5:INTEGER) <- [7]
+2026-10-18 19:28:19 [qtp1595282218-30] TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:INTEGER) <- [5]
+2026-10-18 19:28:19 [qtp1595282218-30] INFO  com.example.rest.OrderResource - Заказ с id = 5 успешно удален

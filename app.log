@@ -1,0 +1,4 @@
+2026-10-18 19:28:45 [qtp1595282218-29] INFO  com.example.rest.OrderResource - Метод GET: получение всех заказов
+2026-10-18 19:28:45 [qtp1595282218-29] INFO  com.example.rest.OrderResource - Все заказы получены. Количество заказов: 4
+2026-10-18 19:28:58 [qtp1595282218-30] INFO  com.example.rest.ProductResource - Метод GET: запрос на получение всех товаров
+2026-10-18 19:28:58 [qtp1595282218-30] INFO  com.example.rest.ProductResource - Товары успешно получены, количество: 6
